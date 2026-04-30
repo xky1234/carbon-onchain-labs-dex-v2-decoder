@@ -58,3 +58,6 @@ features = [
     "borsh",
     "curve25519",
 ]
+
+[dependencies]
+borsh = { version = "1.5", features = ["derive"] }
